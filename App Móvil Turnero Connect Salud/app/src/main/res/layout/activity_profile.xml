@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Datos Personales"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textFontWeight="400"
+        android:layout_margin="20dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="DNI"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Nombre"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Apellido"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Teléfono"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/fecha_nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Fecha de nacimiento"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:background="@color/light_grey"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_editar"
+            android:layout_width="510px"
+            android:layout_height="200px"
+            android:text="Editar"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"/>
+
+        <Button
+            android:id="@+id/button_guardar"
+            android:layout_width="510px"
+            android:layout_height="200px"
+            android:text="Guardar"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
